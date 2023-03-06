@@ -60,3 +60,65 @@
     font-style: bold;
     text-transform: uppercase;
 }
+.content{
+    flex-grow: 1;
+}
+
+.intro{
+    padding-top: 102px;
+    padding-bottom: 94px;
+}
+.intro_content{
+    position: relative;
+    bottom: 12px;
+    width: 616px;
+    margin-bottom: 20px;
+    margin-right: 74px;
+}
+.intro_heading{
+    margin: 0;
+    font-size: 60px;
+    font-family: 'OpenSans',sans-serif;
+    font-weight: 900;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.intro{
+    margin: 0;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 16px;
+    max-width: 520px;
+    margin-bottom: 50px;
+}
+.red-button{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #FF2D2D;
+ }
+ .action_button{
+    font-family: 'OpenSans',sans-serif;
+    display: inline-block;
+    width: 227px;
+    height: 55px;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+    border-radius: 6px;
+ }
+
+ .intro-video{
+    width: 554px;
+    height: 359px;
+    opacity: 0,2;
+ }
+ .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1253px;
+    min-height: 359px;
+    margin: 0 auto;
+ }
