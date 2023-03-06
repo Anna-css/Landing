@@ -37,6 +37,9 @@
 .page_header-grey{
     background-color: #F6F2F2;
 }
+.page_header{
+    padding: 25px;
+}
 .menu-item{
     display: flex;
     align-items: stretch;
