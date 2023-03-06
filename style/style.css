@@ -21,7 +21,7 @@
     background: #000000;
 }
 
-.header-navigation{
+.header__navigation{
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,24 +34,24 @@
     padding: 0;
     margin: 0;
 }
-.page_header-grey{
+.page__header_grey{
     background-color: #F6F2F2;
 }
-.page_header{
+.page__header{
     padding: 25px;
 }
-.menu-item{
+.menu__item{
     display: flex;
     align-items: stretch;
     justify-content: center;
     min-width: 90px;
 }
 
-.menu-item:hover{
+.menu__item:hover{
     background-color: #FF3F40;
 }
 
-.menu_link{
+.menu__link{
     display: flex;
     align-items: center;
     margin: 0 30px;
@@ -63,7 +63,7 @@
     font-style: bold;
     text-transform: uppercase;
 }
-.content{
+.page__content{
     flex-grow: 1;
 }
 
@@ -71,14 +71,14 @@
     padding-top: 102px;
     padding-bottom: 94px;
 }
-.intro_content{
+.intro__content{
     position: relative;
     bottom: 12px;
     width: 616px;
     margin-bottom: 20px;
     margin-right: 74px;
 }
-.intro_heading{
+.intro__heading{
     margin: 0;
     font-size: 60px;
     font-family: 'OpenSans',sans-serif;
