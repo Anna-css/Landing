@@ -61,7 +61,8 @@
     color: #E0E0E0;
     text-decoration: none;
     font-size: 12px;
-    font-style: bold;
+    font-style: 700;
+    padding: 0 27px;
     text-transform: uppercase;
 }
 .page__content{
