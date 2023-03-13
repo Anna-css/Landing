@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
 }
-
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -55,13 +54,12 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 0 27px;
     justify-content: center;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'OpenSans',sans-serif;
     color: #E0E0E0;
     text-decoration: none;
     font-size: 12px;
-    font-style: 700;
+    font-weight: 700;
     padding: 0 27px;
     text-transform: uppercase;
 }
@@ -70,9 +68,10 @@
 }
 
 .intro__text{
-    padding-top: 25px;
     padding-bottom: 94px;
+    padding-top: 25px;
 }
+
 .intro__content{
     position: relative;
     bottom: 12px;
@@ -83,7 +82,7 @@
     margin: 0;
     margin-top: 60px;
     font-size: 60px;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-weight: 900;
     line-height: 72px;
     text-transform: uppercase;
@@ -112,7 +111,6 @@
     text-decoration: none;
     border-radius: 6px;
  }
-
  .intro-video{
     width: 551px;
     height: 356px;
@@ -131,7 +129,6 @@
     padding-bottom: 94px;
     padding-top: 25px;
  }
-
  .service{
     padding-top: 106px;
     padding-bottom: 52px;
