@@ -69,7 +69,7 @@
 }
 
 .intro__text{
-    padding-top: 102px;
+    padding-top: 25px;
     padding-bottom: 94px;
 }
 .intro__content{
@@ -127,4 +127,6 @@
     max-width: 1240px;
     min-height: 359px;
     margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 25px;
  }
