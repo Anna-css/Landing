@@ -129,58 +129,85 @@
     padding-bottom: 94px;
     padding-top: 25px;
  }
- .service{
+ .services{
     padding-top: 106px;
     padding-bottom: 52px;
- }
+    border-bottom: 1px solid #E0E0E0;
+}
 
- .services{
-    flex-grow: 1 1 502px;
+.services__leading{
+    float: 1 1 502px;
     max-width: 502px;
     margin-bottom: 50px;
     margin-right: 50px;
- }
-
- .services__heading{
-    font-family: 'OpenSans',sans-serif;
-   position: relative;
-   bottom: 6px;
-   font-weight: 600;
-   font-size: 42px;
-   margin-bottom: 28px;
-   letter-spacing: 1.2px;
-   text-transform: uppercase;
- }
-.services__text{
-    font-family: 'OpenSans',sans-serif;
-    margin: 0;
-    line-height: 28px;
-    margin-bottom: 50px;
-}
-.action-white-buttom{
-font-size: 18px;
-color: #FF0000;
-background-color: #FFFFFF;
-border: 2px solid #FF0000;
-}
-.services_blocks{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1;
-    max-width: 610px;
 }
 .services__heading{
     font-family: 'OpenSans',sans-serif;
-   position: relative;
-   bottom: 6px;
-   font-weight: 600;
-   font-size: 24px;
-   margin-bottom: 12px;
-   letter-spacing: 1.2px;
-
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 700;
+    bottom: 6px;
+    margin-bottom: 28px;
+}
+ 
+.action-white-buttom{
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    color: #FF2D2D;
+    background-color: #FFFFFF;
+    border: 2px solid #FF2D2D;
+}
+.services__text{
+    font-family: 'OpenSans',sans-serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.services_blocks{
+    flex: 1 1;
+    max-width: 610px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .service{
     flex: 1 1 288px;
-    width: 288;
+    max-width: 288px;
     margin-bottom: 50px;
+}
+.service__heading{
+    margin: 0;
+    font-family: 'OpenSans',sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.service__text{
+    font-family: 'OpenSans',sans-serif;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+.services__heading::before{
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 20px;
+
+}
+.manage::before{
+    content: url(../images/managenent_icon.svg);
+}
+ 
+.design::before{
+    content: url(../images/design_icon.svg); 
+}
+.logo::before{
+    content: url(../images/logo_icon.svg); 
+}
+.animation::before{
+    content: url(../images/animation_icon.svg); 
 }
