@@ -55,7 +55,7 @@
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     color: #E0E0E0;
     text-decoration: none;
     font-size: 12px;
@@ -90,7 +90,7 @@
 }
 .intro{
     margin: 0;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     max-width: 520px;
     margin-bottom: 29px;
@@ -143,7 +143,7 @@
     margin-right: 50px;
 }
 .services__heading{
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     text-transform: uppercase;
     position: relative;
     font-weight: 700;
@@ -152,14 +152,14 @@
 }
  
 .action-white-buttom{
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     color: #FF2D2D;
     background-color: #FFFFFF;
     border: 2px solid #FF2D2D;
 }
 .services__text{
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     margin: 0;
     font-size: 16px;
     line-height: 28px;
@@ -180,7 +180,7 @@
 }
 .service__heading{
     margin: 0;
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     letter-spacing: 1.5px;
     font-weight: 500;
     font-size: 24px;
