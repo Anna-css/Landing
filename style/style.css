@@ -55,7 +55,7 @@
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'OpenSans',sans-serif;
     color: #E0E0E0;
     text-decoration: none;
     font-size: 12px;
@@ -102,7 +102,7 @@
     background-color: #FF2D2D;
  }
  .action__button{
-    font-family: 'OpenSans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     display: inline-block;
     width: 227px;
     height: 55px;
@@ -143,17 +143,17 @@
     margin-right: 50px;
 }
 .services__heading{
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'OpenSans',sans-serif;
     text-transform: uppercase;
-    position: relative;
     font-size: 42px;
+    position: relative;
     font-weight: 700;
     bottom: 6px;
     margin-bottom: 28px;
 }
  
 .action-white-buttom{
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'OpenSans',sans-serif;
     font-size: 18px;
     color: #FF2D2D;
     background-color: #FFFFFF;
@@ -171,48 +171,47 @@
     max-width: 610px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .service{
     flex: 1 1 288px;
-    width: 288px;
+    max-width: 288px;
     margin-bottom: 50px;
     padding: 7px;
-}
-.service__heading{
-    margin: 0;
-    font-family: 'Open Sans',sans-serif;
-    letter-spacing: 1.5px;
-    font-weight: 500;
-    font-size: 24px;
-    margin-bottom: 12px;
-    padding-top: 16px;
-}
-.service__text{
-    font-family: 'Open Sans',sans-serif;
-    padding-top: 16px;
-    margin: 0;
-    font-size: 16px;
-    line-height: 28px;
-
 }
 .services__heading::before{
     display: block;
     width: 37px;
     height: 37px;
     margin-bottom: 24px;
+}
+.service__heading{
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 12px;
+    padding-top: 16px;
+}
+.service__text{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
 
 }
 .manage::before{
     content: url(../images/managenent_icon.svg);
 }
- 
 .design::before{
-    content: url(../images/design_icon.svg); 
+    content: url(../images/design_icon.svg);
 }
+
 .logo::before{
-    content: url(../images/logo_icon.svg); 
+    content: url(../images/logo_icon.svg);
 }
 .animation::before{
-    content: url(../images/animation_icon.svg); 
+    content: url(../images/animation_icon.svg);
 }
