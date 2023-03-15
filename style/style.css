@@ -215,6 +215,7 @@
 .animation::before{
     content: url(../images/animation_icon.svg);
 }
+
 .feauture{
     padding-top: 104px;
     padding-bottom: 52px;
