@@ -49,6 +49,9 @@
 .menu__item:hover{
     background-color: #FF3F40;
 }
+.menu__link_active{
+    background-color: #FF3F40;
+}
 
 .menu__link{
     display: flex;
