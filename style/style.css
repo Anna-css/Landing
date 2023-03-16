@@ -292,12 +292,10 @@
     object-fit: cover;
 }
 
-.production__line{
-    background: #FF2D2D;
-}
 .header__line{
     width: 106px;
     max-height: 4px;
+      background: #FF2D2D;
 
    
 }
