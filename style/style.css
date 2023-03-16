@@ -52,7 +52,6 @@
 .menu__link_active{
     background-color: #FF3F40;
 }
-
 .menu__link{
     display: flex;
     align-items: center;
@@ -296,11 +295,11 @@
 }
 
 .header__line{
-    background: #FF2D2D;
- }
- .production__line{
-     width: 106px;
-     height: 4px;
- }
- 
- 
+   background: #FF2D2D;
+}
+.production__line{
+    width: 106px;
+    height: 4px;
+}
+
+
