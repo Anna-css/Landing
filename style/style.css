@@ -296,11 +296,11 @@
 }
 
 .header__line{
-   background: #FF2D2D;
-}
-.production__line{
-    width: 106px;
-    height: 4px;
-}
-
-
+    background: #FF2D2D;
+ }
+ .production__line{
+     width: 106px;
+     height: 4px;
+ }
+ 
+ 
