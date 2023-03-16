@@ -293,9 +293,11 @@
 }
 
 .header__line{
-    width: 106px;
-    max-height: 4px;
-      background: #FF2D2D;
-
-   
+   background: #FF2D2D;
 }
+.production__line{
+    width: 106px;
+    height: 4px;
+}
+
+
