@@ -70,10 +70,14 @@
 }
 
 .intro__text{
-    padding-bottom: 72px;
-    padding-top: 25px;
+    padding-bottom: 45px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    line-height: 28px;
 }
-
+.page__intro_grey{
+    background-color: #F6F2F2;
+}
 .intro__content{
     position: relative;
     bottom: 12px;
@@ -97,13 +101,13 @@
     max-width: 520px;
     margin-bottom: 29px;
 }
-.red-button{
+.action-button_red{
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
     background-color: #FF2D2D;
  }
- .action__button{
+ .action-button{
     font-family: 'Open Sans',sans-serif;
     display: inline-block;
     width: 227px;
@@ -114,12 +118,15 @@
     border-radius: 6px;
  }
  .intro-video{
-    width: 551px;
-    height: 356px;
     margin-top: 55px;
+ }
+ .video{
+    width: 100%;
+    max-width: 551px;
     box-shadow: 0 0 25px;
-}
- 
+    aspect-ratio: 630/354;
+    object-fit: cover;
+ }
  .section{
     display: flex;
     flex-wrap: wrap;
@@ -154,7 +161,7 @@
     margin-bottom: 28px;
 }
  
-.action-white-buttom{
+.action-buttom_white{
     font-family: 'OpenSans',sans-serif;
     font-size: 18px;
     color: #FF2D2D;
@@ -168,7 +175,7 @@
     line-height: 28px;
     margin-bottom: 50px;
 }
-.services_blocks{
+.services__blocks{
     flex: 1 1;
     max-width: 610px;
     display: flex;
@@ -194,7 +201,7 @@
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 12px;
-    padding-top: 16px;
+    padding-top: 25px;
 }
 .service__text{
     font-family: 'Open Sans',sans-serif;
@@ -206,16 +213,28 @@
 }
 .manage::before{
     content: url(../images/managenent_icon.svg);
+    display: block;
+    width: 42px;
+    height: 42px;
 }
 .design::before{
     content: url(../images/design_icon.svg);
+    display: block;
+    width: 42px;
+    height: 42px;
 }
 
 .logo::before{
     content: url(../images/logo_icon.svg);
+    display: block;
+    width: 42px;
+    height: 42px;
 }
 .animation::before{
     content: url(../images/animation_icon.svg);
+    display: block;
+    width: 42px;
+    height: 42px;
 }
 
 .feauture{
@@ -281,9 +300,10 @@
     max-width: 1343px;
     height: 620px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     margin: 0 auto;
+    gap: 0 15px;
  
 }
 .product{
@@ -300,6 +320,7 @@
 .production__line{
     width: 106px;
     height: 4px;
+    border: 0;
 }
 
 
