@@ -431,26 +431,25 @@ border: 2px solid #FF2D2D;
 
 
 .member__name{
-    width: 100%;
-    width: 200px;
-    display: flex;
+    display: block;
     position: absolute;
     font-family: 'Open Sans',sans-serif; 
     font-size: 18px;
     bottom: 0;
     margin: 0;
+    left: 0;
+    right: 0;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
     background-color: #000000;
-    visibility: hidden;
-    height: 38px;
+    display: none;
     text-align: center;
     opacity: 50%;
     text-transform: uppercase;
 }
-.member:hover > .member__name{
-    visibility: visible;
+.member:hover .member__name{
+  display: block;
 }
 
 .member__photo{
