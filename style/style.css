@@ -324,7 +324,7 @@
 
 .team{
     padding-top: 60px;
-    padding-bottom: 12px;
+    padding-bottom: 106px;
 }
 .team__header{
     width: 100%;
@@ -455,4 +455,81 @@ border: 2px solid #FF2D2D;
 .member__photo{
     width: 200px;
     height: 217px;
+}
+.subscribe{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    background-color: #2C2C2C;
+    padding-top: 124px;
+    padding-bottom: 140px;
+}
+
+.subscribe__header{
+    max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+   
+}
+
+.subscribe__heading{
+    font-family: 'Open Sans',sans-serif; 
+    font-size: 42px;
+    color: #FFFFFF;
+    font-size: 700;
+}
+.subscribe__text{
+    font-family: 'Open Sans',sans-serif; 
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-weight: 400;
+}
+.subscribe__form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    padding: 50px;
+}
+
+.subscribe__form_input{
+    display: flex;
+    font-family: 'Open Sans',sans-serif; 
+    align-items: center;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+    margin-right: 22px;
+    color:  #2C2C2C;
+    background-color: #FFFFFF;
+    flex: 0 1 526px;
+    min-height: 78px;
+    border: 0;
+    margin-bottom: 16px;
+    padding-right: 22px;
+    padding-left: 36px;
+    border-radius: 5px;
+}
+
+.subscribe__form_button{
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    font-family: 'Open Sans',sans-serif; 
+    font-size: 18px;
+    background-color: #FF2D2D;
+    min-height: 78px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 0;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    width: 217px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
 }
