@@ -425,13 +425,9 @@ border: 2px solid #FF2D2D;
     position: relative;
     margin-top: 18px;
 }
-.member:not(:last-child){
-    margin-right: 18px;
-}
-
 
 .member__name{
-    display: block;
+    display: flex;
     position: absolute;
     font-family: 'Open Sans',sans-serif; 
     font-size: 18px;
@@ -439,6 +435,8 @@ border: 2px solid #FF2D2D;
     margin: 0;
     left: 0;
     right: 0;
+    height: 36px;
+    padding-top: 5px;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
@@ -451,8 +449,8 @@ border: 2px solid #FF2D2D;
 .member:hover .member__name{
   display: block;
 }
-
 .member__photo{
+    display: block;
     width: 200px;
     height: 217px;
 }
@@ -531,5 +529,14 @@ border: 2px solid #FF2D2D;
     align-items: center;
     justify-content: center;
 
-
+}
+@supports  ( display: grid ) and ( display: contents ){
+    .team__members{
+        display: grid;
+        grid-template-columns: repeat(2 auto);
+        grid-template-rows: repeat(2 auto);
+    }
+    .team__maim-content{
+        display: contents;
+    }
 }
