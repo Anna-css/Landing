@@ -420,6 +420,7 @@ border: 2px solid #FF2D2D;
     align-items: flex-end;
     grid-column: 2/3;
     grid-row: 2/3;
+    gap: 20px;
 }
 .member{
     position: relative;
@@ -680,8 +681,8 @@ border: 2px solid #FF2D2D;
 @supports  ( display: grid ) and ( display: contents ){
     .team__members{
         display: grid;
-        grid-template-columns: repeat(2 auto);
-        grid-template-rows: repeat(2 auto);
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
     }
     .team__maim-content{
         display: contents;
