@@ -594,6 +594,7 @@ border: 2px solid #FF2D2D;
         align-items: center;
         width: 339px;
         height: 69px;
+        padding-left: 40px;
     }
     .contacts__message{
         font-family: 'Open Sans',sans-serif;
@@ -606,6 +607,8 @@ border: 2px solid #FF2D2D;
         height: 252px;
         margin-bottom: 44px;
         margin-top: 43px;
+        padding-top: 30px; 
+        padding-left: 30pt;
 
     }
     .contacts__button{
