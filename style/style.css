@@ -529,6 +529,7 @@ border: 2px solid #FF2D2D;
     text-align: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 .contacts-feedback{
