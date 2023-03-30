@@ -420,6 +420,7 @@ border: 2px solid #FF2D2D;
     grid-column: 2/3;
     grid-row: 2/3;
     gap: 12px;
+    cursor: pointer;
 }
 .member{
     position: relative;
@@ -626,6 +627,7 @@ border: 2px solid #FF2D2D;
         width: 731px;
         height: 71px;
         border: 0;
+        cursor: pointer;
     }
     .address__block{
         position: relative;
