@@ -800,7 +800,6 @@ border: 2px solid #FF2D2D;
         width: 100%;
         text-align: center;
     }
-    }
     .products{
         width: 100%;
         margin: 30px;
@@ -823,4 +822,5 @@ border: 2px solid #FF2D2D;
 .members{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+}
 }
