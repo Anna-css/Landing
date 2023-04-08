@@ -420,7 +420,6 @@ border: 2px solid #FF2D2D;
     grid-column: 2/3;
     grid-row: 2/3;
     gap: 12px;
-    cursor: pointer;
 }
 .member{
     position: relative;
@@ -529,7 +528,6 @@ border: 2px solid #FF2D2D;
     text-align: center;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
 
 }
 .contacts-feedback{
@@ -611,7 +609,6 @@ border: 2px solid #FF2D2D;
         margin-top: 43px;
         padding-top: 30px; 
         padding-left: 30pt;
-
     }
     .contacts__button{
         font-family: 'Open Sans',sans-serif;
@@ -629,6 +626,7 @@ border: 2px solid #FF2D2D;
         height: 71px;
         border: 0;
         cursor: pointer;
+
     }
     .address__block{
         position: relative;
@@ -692,4 +690,137 @@ border: 2px solid #FF2D2D;
     .team__maim-content{
         display: contents;
     }
+}
+
+
+@media screen and (max-width: 1300px) {
+   .intro{
+        flex-wrap: nowrap;
+    }
+    .intro__content{
+        box-sizing: border-box;
+        width: 55%;
+        margin-right: 0;
+        padding-right: 20px;
+    
+}
+.intro__heading{
+    font-size: 5vw;
+}
+.intro-video{
+    width: 100%;
+    height: auto;
+}
+.products{
+    justify-content: flex-start;
+}
+.product{
+    max-width: 100%;
+    margin-right: 16px;
+}
+.contacts{
+    margin: 0;
+    margin-bottom: 30px;
+    margin-left: 114px;
+}
+.contacts-feedback{
+    flex-wrap: wrap;
+    padding-right: initial;
+    padding-left: initial;
+    padding-bottom: 0;
+}
+.contacts__body{
+    margin-right: 0;
+}
+.address__block{
+    width: 100%;
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 905px) {
+    .intro{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services__blocks{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .intro{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .products__item{
+        width: 100%;
+        text-align: center;
+    }  
+    .services{
+        justify-content: center;
+      
+    }
+    .intro-video{ 
+        height: auto;
+    }
+}
+@media screen and (max-width: 855px) {
+    .intro{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .products__item{
+        width: 100%;
+        text-align: center;
+    }  
+    .services{
+        justify-content: center;
+    }
+    }
+@media screen and (max-width: 700px) {
+    .header{
+        padding-left: 20px;
+    }
+    .intro{
+        flex-wrap: wrap;
+        margin-left: 40px;
+
+    }
+    .intro__content{
+        width: 100%;
+        justify-content: center;
+    }
+    .intro__heading{
+        font-size: 40px;
+    }
+    .services{
+        justify-content: center;
+      
+    }
+    .products__item{
+        width: 100%;
+        text-align: center;
+    }
+    }
+    .products{
+        width: 100%;
+        margin: 30px;
+    }
+
+   .team__members{
+    grid-template-columns: 100%;
+    grid-template-columns: auto;
+   }
+   .team__photo{
+    grid-row: 1 / 2;
+    margin-bottom: 18px;
+    margin-right: 0S;
+   }
+
+   .team__main-info{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+.members{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
