@@ -7,6 +7,7 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    min-width: 360px;
 }
 
 .header {
@@ -37,10 +38,6 @@
 
 .page__header_grey {
     background-color: #F6F2F2;
-}
-
-.page__header {
-    padding: 25px;
 }
 
 .menu__item {
@@ -516,7 +513,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 42px;
     color: #FFFFFF;
-    font-size: 700;
+    font-we: 700;
 }
 
 .subscribe__text {
@@ -616,7 +613,6 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 100%;
     max-width: 720px;
     margin-right: 106px;
     padding-left: 0;
@@ -665,6 +661,7 @@
 }
 
 .contacts__button {
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
@@ -676,8 +673,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    width: 731px;
-    height: 71px;
+    max-width: 731px;
+    min-height: 71px;
     border: 0;
     cursor: pointer;
 
@@ -753,9 +750,6 @@
         grid-template-rows: repeat(2, auto);
     }
 
-    .team__maim-content {
-        display: contents;
-    }
 }
 
 
@@ -766,7 +760,6 @@
 
     .intro__content {
         box-sizing: border-box;
-        width: 55%;
         margin-right: 0;
         padding-right: 20px;
 
@@ -805,6 +798,26 @@
     .address__block {
         width: 100%;
         max-width: 100%;
+    }
+    .team__members {
+        grid-template-columns: 100%;
+        grid-template-columns: auto;
+    }
+
+    .team__photo {
+        grid-row: 1 / 2;
+        margin-bottom: 18px;
+        margin-right: 50px;
+    }
+
+    .team__main-info {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .members {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
     }
 }
 
@@ -881,7 +894,7 @@
 
     .intro__content {
         width: 100%;
-        justify-content: center;
+        padding-left: 21px;
     }
 
     .intro__heading {
@@ -903,31 +916,37 @@
         width: 100%;
         margin: 30px;
     }
-
-    .team__members {
-        grid-template-columns: 100%;
-        grid-template-columns: auto;
-    }
-
-    .team__photo {
-        grid-row: 1 / 2;
-        margin-bottom: 18px;
-        margin-right: 0S;
-    }
-
-    .team__main-info {
-        grid-column: 2 / 2;
-        grid-row: 1 / 1;
-    }
-
-    .members {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
+    .team{
+        padding-left: 40px;
+    
+        }
+}
+@media screen and (max-width: 600px) {
+    .contacts__name{
+        margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .team{
+    padding-left: 40px;
+
+    }
     .services {
         padding-left: 40px;
     }
+    .contacts__name{
+        margin-bottom: 20px;
+    }
+    .subscribe__text {
+        font-size: 18px;
+        padding-top: 12px;
+
+    }
+}
+@media screen and (max-width: 400px) {
+    .intro-video{
+        margin-right: 54px
+    }
+
 }
