@@ -682,7 +682,7 @@
 
 .address__block {
     position: relative;
-    min-width: 580px;
+    max-width: 580px;
     min-height: 485px;
     padding: 126px 52px 126px 78px;
     background-color: #2C2C2C;
@@ -762,6 +762,7 @@
         box-sizing: border-box;
         margin-right: 0;
         padding-right: 20px;
+        padding-left: 18px;
 
     }
 
@@ -795,10 +796,6 @@
         margin-right: 0;
     }
 
-    .address__block {
-        width: 100%;
-        max-width: 100%;
-    }
     .team__members {
         grid-template-columns: 100%;
         grid-template-columns: auto;
@@ -819,11 +816,13 @@
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-}
+    }
+
 
 @media screen and (max-width: 905px) {
     .intro {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .services__blocks {
@@ -888,17 +887,17 @@
 
     .intro {
         flex-wrap: wrap;
-        margin-left: 40px;
 
     }
 
     .intro__content {
-        width: 100%;
-        padding-left: 21px;
+    padding-left: 18px;
+    
     }
 
     .intro__heading {
         font-size: 40px;
+        word-wrap: break-word
     }
 
     .services {
@@ -913,8 +912,8 @@
     }
 
     .products {
-        width: 100%;
-        margin: 30px;
+        padding: 18px;
+        gap: 0;
     }
     .team{
         padding-left: 40px;
@@ -924,6 +923,9 @@
 @media screen and (max-width: 600px) {
     .contacts__name{
         margin-bottom: 20px;
+    }
+    .contacts{
+        padding-right: 15px
     }
 }
 
@@ -943,10 +945,23 @@
         padding-top: 12px;
 
     }
+    .contacts{
+        padding-right: 15px
+    }
 }
 @media screen and (max-width: 400px) {
-    .intro-video{
-        margin-right: 54px
-    }
+    .intro__heading {
+    font-size: 37px;
+    word-wrap: break-word
 
+}
+.intro-video{
+    padding-right: 35px;
+}
+.contacts{
+    padding-right: 15px
+}
+.members{
+    padding-left: 50px;
+}
 }
