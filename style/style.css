@@ -742,7 +742,9 @@
     width: 33px;
     height: 33px;
 }
-
+.menu__toggle{
+    display: none;
+}
 @supports (display: grid) and (display: contents) {
     .team__members {
         display: grid;
@@ -965,3 +967,26 @@
     padding-left: 50px;
 }
 }
+@media screen and (max-width: 800px) {
+    .menu{
+        display: none;
+    }
+    .menu__toggle{
+        display: inline-block;
+        background-color: #000000;
+        color: #FFFFFF;
+        min-width: 140px;
+        height: 90px
+}
+
+    .menu__shown{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        left: 0;
+        top: 119px;
+        background-color: #000000;
+    }
+}
+   
