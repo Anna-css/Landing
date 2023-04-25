@@ -742,9 +742,11 @@
     width: 33px;
     height: 33px;
 }
-.menu__toggle{
+
+.header__toggle {
     display: none;
 }
+
 @supports (display: grid) and (display: contents) {
     .team__members {
         display: grid;
@@ -818,7 +820,7 @@
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    }
+}
 
 
 @media screen and (max-width: 905px) {
@@ -893,8 +895,8 @@
     }
 
     .intro__content {
-    padding-left: 18px;
-    
+        padding-left: 18px;
+
     }
 
     .intro__heading {
@@ -917,76 +919,92 @@
         padding: 18px;
         gap: 0;
     }
-    .team{
+
+    .team {
         padding-left: 40px;
-    
-        }
+
+    }
 }
+
 @media screen and (max-width: 600px) {
-    .contacts__name{
+    .contacts__name {
         margin-bottom: 20px;
     }
-    .contacts{
+
+    .contacts {
         padding-right: 15px
     }
 }
 
 @media screen and (max-width: 500px) {
-    .team{
-    padding-left: 40px;
+    .team {
+        padding-left: 40px;
 
     }
+
     .services {
         padding-left: 40px;
     }
-    .contacts__name{
+
+    .contacts__name {
         margin-bottom: 20px;
     }
+
     .subscribe__text {
         font-size: 18px;
         padding-top: 12px;
 
     }
-    .contacts{
+
+    .contacts {
         padding-right: 15px
     }
 }
+
 @media screen and (max-width: 400px) {
     .intro__heading {
-    font-size: 37px;
-    word-wrap: break-word
+        font-size: 37px;
+        word-wrap: break-word
+    }
 
+    .intro-video {
+        padding-right: 35px;
+    }
+
+    .contacts {
+        padding-right: 15px
+    }
+
+    .members {
+        padding-left: 50px;
+    }
 }
-.intro-video{
-    padding-right: 35px;
-}
-.contacts{
-    padding-right: 15px
-}
-.members{
-    padding-left: 50px;
-}
-}
-@media screen and (max-width: 800px) {
-    .menu{
+
+@media screen and (max-width: 767px) {
+    .menu {
         display: none;
     }
-    .menu__toggle{
+
+    .header__toggle {
         display: inline-block;
         background-color: #000000;
         color: #FFFFFF;
         min-width: 140px;
-        height: 90px
-}
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+    }
 
-    .menu__shown{
+    .menu__item {
+        min-width: 140px;
+        height: 90px
+    }
+
+    .menu__shown {
         display: flex;
         position: absolute;
         flex-direction: column;
-        right: 0;
-        left: 0;
-        top: 119px;
+        top: 89px;
         background-color: #000000;
     }
 }
-   
