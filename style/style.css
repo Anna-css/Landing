@@ -1006,5 +1006,6 @@
         flex-direction: column;
         top: 89px;
         background-color: #000000;
+        z-index: 1000;
     }
 }
