@@ -39,6 +39,13 @@
 .page__header_grey {
     background-color: #F6F2F2;
 }
+.page__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 
 .menu__item {
     display: flex;
@@ -71,6 +78,7 @@
 
 .page__content {
     flex-grow: 1;
+    padding-top: 90px;
 }
 
 .intro__text {
@@ -1006,6 +1014,5 @@
         flex-direction: column;
         top: 89px;
         background-color: #000000;
-        z-index: 1000;
     }
 }
