@@ -401,8 +401,8 @@
 
 .team__photo {
     flex-shrink: 0;
-    width: 322px;
-    height: 462px;
+    max-width: 322px;
+    min-height: 462px;
     margin-right: 66px;
     background-color: #FF3F40;
     grid-column: 1 / 2;
