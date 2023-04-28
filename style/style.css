@@ -400,6 +400,7 @@
 }
 
 .team__photo {
+    width: 100%;
     flex-shrink: 0;
     max-width: 322px;
     min-height: 462px;
