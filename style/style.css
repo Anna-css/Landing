@@ -46,7 +46,6 @@
     right: 0;
     z-index: 1000;
 }
-
 .menu__item {
     display: flex;
     align-items: stretch;
@@ -521,7 +520,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 42px;
     color: #FFFFFF;
-    font-we: 700;
+    font-weight: 700;
 }
 
 .subscribe__text {
@@ -843,6 +842,7 @@
 
     .contacts-feedback {
         margin-left: 40px;
+        margin-right: 40px;
     }
 }
 
@@ -908,13 +908,13 @@
     }
 
     .intro__heading {
-        font-size: 40px;
+        font-size: 37px;
         word-wrap: break-word
+        
     }
 
     .services {
-        justify-content: center;
-        flex-wrap: wrap;
+        margin-left:30px;
     }
 
     .products__item {
@@ -930,6 +930,7 @@
 
     .team {
         padding-left: 40px;
+        padding-right: 40px;
 
     }
 }
@@ -945,6 +946,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .intro-video{
+        padding-right: 35px;
+        padding-left: 35px;
+    }
     .team {
         padding-left: 40px;
 
@@ -977,6 +982,7 @@
 
     .intro-video {
         padding-right: 35px;
+        padding-left: 35px;
     }
 
     .contacts {
@@ -984,7 +990,7 @@
     }
 
     .members {
-        padding-left: 50px;
+        justify-content: center;
     }
 }
 
@@ -995,12 +1001,12 @@
 
     .header__toggle {
         display: inline-block;
-        background-color: #000000;
         color: #FFFFFF;
         min-width: 140px;
         font-size: 17px;
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
+        background-color: #000000;
     }
 
     .menu__item {
@@ -1014,5 +1020,6 @@
         flex-direction: column;
         top: 89px;
         background-color: #000000;
+        z-index: 1000;
     }
 }
