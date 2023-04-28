@@ -933,6 +933,9 @@
         padding-right: 40px;
 
     }
+    .team__header{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -946,6 +949,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .intro__heading {
+        font-size: 32px;
+        text-align: center;
+    }
     .intro-video{
         padding-right: 35px;
         padding-left: 35px;
@@ -954,6 +961,13 @@
         padding-left: 40px;
 
     }
+    .team__line {
+        margin-left: 98px;
+    }
+
+    .action-button{
+        margin-left: 90px;
+       }
 
     .services {
         padding-left: 40px;
@@ -968,6 +982,9 @@
         padding-top: 12px;
 
     }
+    .team__heading{
+        text-align: center;
+    }
 
     .contacts {
         padding-right: 15px
@@ -976,10 +993,16 @@
 
 @media screen and (max-width: 400px) {
     .intro__heading {
-        font-size: 37px;
-        word-wrap: break-word
+        font-size: 32px;
+        word-wrap: break-word;
+        text-align: center;
     }
-
+    .intro__text{
+        font-size: 16px;
+    }
+          .action-button{
+           margin-left: 44px;
+          }
     .intro-video {
         padding-right: 35px;
         padding-left: 35px;
@@ -991,6 +1014,17 @@
 
     .members {
         justify-content: center;
+    }
+    .services__heading{
+        font-size: 28px;
+        text-align: center;
+    }
+    .team__heading{
+        text-align: center;
+        font-size: 35px
+    }
+    .feauture__heading{
+        font-size: 33px;
     }
 }
 
