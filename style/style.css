@@ -7,7 +7,7 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    min-width: 360px;
+    min-width: 350px;
 }
 
 .header {
@@ -123,6 +123,11 @@
     color: #FFFFFF;
     background-color: #FF2D2D;
 }
+.action-button_red:hover{
+    background-color: #F6F2F2;;
+    border:2px solid #FF2D2D;;
+    color: #FF2D2D;
+}
 
 .action-button {
     font-family: 'Open Sans', sans-serif;
@@ -187,6 +192,10 @@
     color: #FF2D2D;
     background-color: #FFFFFF;
     border: 2px solid #FF2D2D;
+}
+.action-buttom_white:hover {
+    background-color: #FF2D2D;
+    color: #FFFFFF;
 }
 
 .services__text {
@@ -686,6 +695,11 @@
     border: 0;
     cursor: pointer;
 
+}
+.contacts__button:hover{
+background-color: #FFFFFF;
+border:2px solid #FF2D2D;
+color: #FF2D2D;
 }
 
 .address__block {
