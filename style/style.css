@@ -1063,7 +1063,7 @@ color: #FF2D2D;
         height: 90px
     }
 
-    .menu__shown {
+    .menu_shown {
         display: flex;
         position: absolute;
         flex-direction: column;
