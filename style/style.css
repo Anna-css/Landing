@@ -1049,6 +1049,38 @@ color: #FF2D2D;
         font-size: 33px;
     }
 }
+@media screen and (max-width: 360px) {
+    .intro__heading {
+        font-size: 28px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .action-buttom_white {
+        margin-left: 0;
+    }
+    .services__heading{
+        font-size: 20px;
+    }
+    .service__heading{
+        font-size: 22px;
+    }
+    .feauture__heading{
+        font-size: 28px;
+    }
+    .team__heading{
+        font-size: 30px;
+    }
+    .subscribe__heading{
+        font-size: 30px;
+    }
+    .products__link{
+        font-size: 17px;
+    }
+    .contacts__heading{
+        font-size: 30px;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .menu {
