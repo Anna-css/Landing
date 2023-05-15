@@ -1092,7 +1092,10 @@ color: #FF2D2D;
     .contacts {
         padding-right: 15px
     }
-
+    .contacts__mail,
+    .contacts__name{
+        width: 100%;
+    }
     .members {
         justify-content: center;
     }
