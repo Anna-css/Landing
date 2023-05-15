@@ -918,11 +918,6 @@ color: #FF2D2D;
     .services__blocks {
         width: 100%;
     }
-
-    .contacts-feedback {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
 }
 
 @media screen and (max-width: 800px) {
