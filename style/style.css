@@ -596,14 +596,12 @@ html{
 }
 
 .contacts-feedback {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     padding-top: 92px;
     padding-bottom: 110px;
 }
 
 .contacts__header {
+    max-width: 1249px;
     margin-bottom: 34px;
 }
 
