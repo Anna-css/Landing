@@ -940,6 +940,9 @@ color: #FF2D2D;
         justify-content: center;
 
     }
+    .team{
+        margin-left: 190px;
+    }
 }
 
 @media screen and (max-width: 855px) {
@@ -1010,6 +1013,7 @@ color: #FF2D2D;
     .team {
         padding-left: 40px;
         padding-right: 40px;
+        margin-left: 0;
 
     }
     .team__header{
@@ -1109,6 +1113,9 @@ color: #FF2D2D;
     }
     .feauture__heading{
         font-size: 33px;
+    }
+    .team{
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 360px) {
